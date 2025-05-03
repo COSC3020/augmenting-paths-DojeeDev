@@ -32,3 +32,10 @@ accordingly.
 
 What is the worst-case big $\Theta$ complexity of your implementation? Add your
 answer, including your reasoning, to this markdown file.
+
+### Analysis
+
+In the worst case we'd have to consider every V, and since we check if we visited a node already we would only go through |V|. Then for each node we consider all edges. Giving us $\Theta (|V| + |E|)$
+
+I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice.
+
